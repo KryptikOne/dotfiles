@@ -26,7 +26,7 @@ alias foxxy='open -a "Firefox"'
 alias shiny='open -a "Google Chrome"'
 alias code='open -a "Visual Studio Code"'
 
-alias getwordpress='curl -O https://wordpress.org/latest.zip .; unzip latest.zip; rm latest.zip; mv wordpress/* .; rm -rf wordpress;'
+alias getwordpress='curl -O https://wordpress.org/latest.zip .; unzip latest.zip; rm latest.zip; mv wordpress/* .; rm -rf wordpress; mv wp-config-sample.php wp-config.php;'
 
 # Trigger ~/.bashrc commands
 . ~/.bashrc
